@@ -1,7 +1,6 @@
 package com.jayus.lioj.service.impl;
 
 import static com.jayus.lioj.constant.UserConstant.USER_LOGIN_STATE;
-
 import cn.hutool.core.collection.CollUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
@@ -30,8 +29,6 @@ import org.springframework.util.DigestUtils;
 /**
  * 用户服务实现
  *
- * @author <a href="https://github.com/lijayus">程序员鱼皮</a>
- * @from <a href="https://jayus.icu">编程导航知识星球</a>
  */
 @Service
 @Slf4j
